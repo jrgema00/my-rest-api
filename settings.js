@@ -1,33 +1,33 @@
 const fs = require('fs')
 
-global.creator = 'Zeeoneofc'// yourname
+global.creator = '@kens.js – Kens Ransyah'// yourname
 global.MONGO_DB_URI = "" //database mongodb 
 global.ACTIVATION_TOKEN_SECRET = "-@Pqnap+@(/1jAPPnew/@10" //isi apa aja bebas
-global.your_email = "" //email
+global.your_email = "kensbotz@gmail.com" //email
 global.email_password = "" //application password email
-global.limitCount = 10000
+global.limitCount = 50
 global.YUOR_PORT = 8000
 global.loghandler = {
 	noapikey:{
-		status: 403,
+	creator: `${creator}`,
+	status: 403,
         message: 'Input parameter apikey',
-        creator: `${creator}`,
         result: "error"
     },
     error: {
+	creator: `${creator}`,
         status: 503,
-        message: 'Service Unavaible, Sedang dalam perbaikan',
-        creator: `${creator}`
+        message: 'Service Unavaible, Sedang dalam perbaikan'
     },
     apikey: {
+	creator: `${creator}`,
     	status: 403,
     	message: 'Forbiden, Invalid apikey',
-    	creator: `${creator}`
     },
     noturl: {
+	creator: `${creator}`,
     	status: 403,
     	message: 'Forbiden, Invlid url, masukkan parameter url',
-    	creator: `${creator}`,
     }
 }
 let file = require.resolve(__filename)
