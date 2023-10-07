@@ -1,12 +1,12 @@
 const fs = require('fs')
 
 global.creator = '@kens.js – Kens Ransyah'// yourname
-global.MONGO_DB_URI = "mongodb+srv://knsns202:hsKeETAXbiFoDKro@cluster0.ufpfy1c.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" //database mongodb 
+global.MONGO_DB_URI = "mongodb+srv://kns:4BD4NHjGg3Pz4Ea3@cluster0.3z5nxrr.mongodb.net/?retryWrites=true&w=majority" //database mongodb 
 global.ACTIVATION_TOKEN_SECRET = "-@Pqnap+@(/1jAPPnew/@10" //isi apa aja bebas
 global.your_email = "kensbotz@gmail.com" //email
 global.email_password = "taeiemcfizunpiab" //application password email
 global.limitCount = 50
-global.YUOR_PORT = 8000
+global.YUOR_PORT = 3000
 global.loghandler = {
 	noapikey:{
 	creator: `${creator}`,
